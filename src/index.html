@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Matching Game</title>
+  <link rel="stylesheet" href="styles/index.scss">
+</head>
+<body>
+<div class="game-info">
+<h1>Card Match</h1>
+<p>Attempts remaining: <span id="attempts"></span></p>    
+</div>
+  <div class="game-container">
+    <div class="game-board">
+      <div class="card-row">
+        <!-- First card (random draw) -->
+        <div class="card">
+          <div class="card-face card-face-up">
+            <span id="card-1-face-up">5</span>
+          </div>
+        </div>
+        <!-- Second card (faced down) -->
+        <div class="card">
+          <div class="card-face card-face-down">
+            <img src="images/card-flip-card-image.png" alt="card faced down">
+          </div>
+        </div>
+        <!-- Third card (faced down) -->
+        <div class="card">
+          <div class="card-face card-face-down">
+            <img src="images/card-flip-card-image.png" alt="card faced down">
+          </div>
+        </div>
+        <!-- Fourth card (random draw) -->
+        <div class="card">
+          <div class="card-face card-face-up">
+            <span id="card-4-face-up">8</span>
+          </div>
+        </div>
+        </div>
+        <button id="new-game">New Game</button>
+      </div>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+</html>

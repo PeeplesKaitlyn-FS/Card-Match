@@ -23,15 +23,15 @@ body {
   height: 150px;
   margin: 10px 20px;
   vertical-align: top;
-  
+  background-image: url('../images/card-flip-card-image.png');
   background-size: cover;
   transition: transform 0.5s;
+  color: #000;
 }
 
 .card-face-down img {
   width: 100px;
   height: 150px;
-  background-image: url('../images/card-flip-card-image.png');
 }
 
 .card-face-up {

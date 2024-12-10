@@ -23,22 +23,26 @@ body {
   height: 150px;
   margin: 10px 20px;
   vertical-align: top;
-  //background-color: #fff;
-  background-image: url('../images/card-flip-card-image.png');
+  
   background-size: cover;
+  transition: transform 0.5s;
 }
 
 .card-face-down img {
   width: 100px;
   height: 150px;
+  background-image: url('../images/card-flip-card-image.png');
 }
 
 .card-face-up {
   background-color: #fff;
+  padding: 20px;
+  transform: rotateY(180deg);
 }
 
 .game-info {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -48,4 +52,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #1A6DAF;
 }

@@ -23,24 +23,14 @@ body {
   height: 150px;
   margin: 10px 20px;
   vertical-align: top;
+  //background-color: #fff;
+  background-image: url('../images/card-flip-card-image.png');
+  background-size: cover;
 }
 
 .card-face-down img {
   width: 100px;
   height: 150px;
-}
-
-.card-face-down {
-  background-image: url('../images/card-flip-card-image.png');
-  background-size: cover;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  width: 100px;
-  height: 150px;
-  margin: 10px 20px;
-  vertical-align: top;
-  display: inline-block;
 }
 
 .card-face-up {

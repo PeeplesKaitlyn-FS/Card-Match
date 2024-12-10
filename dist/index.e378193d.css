@@ -17,27 +17,31 @@ body {
 .card {
   cursor: pointer;
   vertical-align: top;
-  background-image: url("card-flip-card-image.c689f637.png");
   background-size: cover;
   border: 1px solid #ccc;
   border-radius: 10px;
   width: 100px;
   height: 150px;
   margin: 10px 20px;
+  transition: transform .5s;
   display: inline-block;
 }
 
 .card-face-down img {
+  background-image: url("card-flip-card-image.c689f637.png");
   width: 100px;
   height: 150px;
 }
 
 .card-face-up {
   background-color: #fff;
+  padding: 20px;
+  transform: rotateY(180deg);
 }
 
 .game-info {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -47,5 +51,9 @@ button {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #1a6daf;
 }
 /*# sourceMappingURL=index.e378193d.css.map */

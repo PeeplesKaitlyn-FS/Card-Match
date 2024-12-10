@@ -17,6 +17,8 @@ body {
 .card {
   cursor: pointer;
   vertical-align: top;
+  background-image: url("card-flip-card-image.c689f637.png");
+  background-size: cover;
   border: 1px solid #ccc;
   border-radius: 10px;
   width: 100px;
@@ -28,19 +30,6 @@ body {
 .card-face-down img {
   width: 100px;
   height: 150px;
-}
-
-.card-face-down {
-  vertical-align: top;
-  background-color: #fff;
-  background-image: url("card-flip-card-image.c689f637.png");
-  background-size: cover;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  width: 100px;
-  height: 150px;
-  margin: 10px 20px;
-  display: inline-block;
 }
 
 .card-face-up {
